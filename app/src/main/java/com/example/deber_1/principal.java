@@ -52,4 +52,8 @@ public class principal extends AppCompatActivity {
         intent.putExtras(b);
         startActivity(intent);
    }
+    public void btlimpiar(View view) {
+        Intent intent = new Intent(principal.this, principal.class);
+        startActivity(intent);
+    }
 }
